@@ -25,7 +25,7 @@ const NavItems = () => {
           Catalog <AiOutlineDown size={15} />
         </p>
         {openRoom && (
-          <div className="absolute top-[59px] -left-[200px] border flex justify-between p-[16px] w-[460px] bg-gray-50">
+          <div className="absolute top-[59px] -left-[200px]  flex justify-between p-[20px] w-[460px] bg-white">
             <div>
               <span className="py-[6px] border-b border-black">Room</span>
               <div className="mt-4 flex flex-col gap-1">
@@ -79,7 +79,7 @@ const NavItems = () => {
         {openMore && (
           <div
             onMouseLeave={() => setOpenMore(false)}
-            className="absolute top-[59px] -left-[20px] border flex justify-between p-[16px] w-[100px] bg-gray-50"
+            className="absolute top-[59px] -left-[20px] flex justify-between p-[16px] w-[100px] bg-white"
           >
             <div className="flex flex-col gap-1">
               {moreOptions.map((item, index) => (
