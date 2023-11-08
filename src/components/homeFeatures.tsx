@@ -23,7 +23,7 @@ function Feature({
 const HomeFeatures = () => {
   return (
     <div className="flex justify-center">
-      <div className="flex items-center flex-wrap my-[80px] justify-between max-sm:w-[230px] w-full max-sm:gap-[24px]">
+      <div className="flex items-center flex-wrap mt-[80px] justify-between max-sm:w-[230px] w-full max-sm:gap-[24px]">
         <Feature label1="Free Shipping" label2="Orders from all item.">
           <TfiPackage size={44} className="hover:text-red-600" />
         </Feature>

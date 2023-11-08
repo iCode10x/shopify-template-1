@@ -12,7 +12,7 @@ type Props = {
 const HomeSlider1Item = ({ heading, price, imageSrc, bgColor }: Props) => {
   return (
     <div
-      className={`w-full bg-[${bgColor}] flex items-center gap-[20px] sm:gap-[50px] md:gap-[100px] 2xl:gap-[200px] px-[20px] md:px-[50px]`}
+      className={`w-full bg-[#EEE5E4] flex items-center gap-[20px] sm:gap-[50px] md:gap-[100px] 2xl:gap-[200px] px-[20px] md:px-[50px]`}
     >
       <div>
         {bgColor}

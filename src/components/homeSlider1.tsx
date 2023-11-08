@@ -2,7 +2,6 @@
 import { BsArrowRight, BsArrowLeft } from 'react-icons/bs'
 import { Swiper, SwiperSlide } from 'swiper/react'
 import { Swiper as SwiperType } from 'swiper'
-import Image from 'next/image'
 import { useRef } from 'react'
 import 'swiper/css'
 import Link from 'next/link'
