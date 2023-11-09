@@ -6,7 +6,7 @@ import { Swiper as SwiperType } from 'swiper'
 import 'swiper/css'
 const HomeSlider2 = () => {
   return (
-    <div className="my-[80px]">
+    <div className="mt-[60px]">
       <Swiper
         rewind={true}
         breakpoints={{
